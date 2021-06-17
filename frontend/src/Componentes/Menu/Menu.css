@@ -1,0 +1,39 @@
+.menu {
+  grid-area: menu;
+  background: linear-gradient(to right, #1e469a, 	#483D8B);
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  border-right: 2px solid lightgray;
+
+  
+}
+
+.links-navegacao a {
+  color: white;
+  font-size: 17px;
+  text-decoration: none;
+  display: block;
+  height: 100%;
+  width: 100%;
+
+}
+.links-navegacao{
+  padding: 10px;
+  width: 100%;
+
+}
+.links-navegacao:hover{
+  background-color:black;
+  transition: all 0.3s;
+
+} 
+.links-navegacao svg{
+margin: 0;
+padding: 0;
+
+}
+
+
+
+

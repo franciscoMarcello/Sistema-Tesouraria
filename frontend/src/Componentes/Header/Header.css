@@ -1,0 +1,25 @@
+.header {
+  grid-area: header;
+  background: linear-gradient(to left, #483d8b, #1e469a);
+  
+  border-bottom: 1px solid lightgray;
+  color: white;
+  font-size: 40px;
+  width: 100%;
+}
+.logo {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  padding-left: 30px;
+  display: flex;
+  align-items: center;
+}
+.sair{
+  display: flex;
+  justify-content: flex-end;
+  width: 93%;
+
+}
+.nome{
+  font-size:30px;
+}
+

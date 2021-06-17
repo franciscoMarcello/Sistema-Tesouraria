@@ -1,0 +1,105 @@
+.formulario {
+  margin-bottom: 10px;
+ 
+  padding: 10px;
+}
+
+#sailorTableArea {
+  max-height: 435px;
+}
+
+#sailorTable {
+  white-space: normal;
+}
+
+tbody {
+  height: 60px;
+  width: 100%;
+}
+
+thead,
+tbody tr {
+  display: table;
+  width: 100%;
+  table-layout: fixed;
+}
+
+.button-cadastrar {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.button-cadastrar button {
+  background-color: green;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  color: white;
+}
+
+.button-cadastrar button:hover {
+  color: black;
+  transition: all 0.5s;
+}
+
+.tableId {
+  width: 40px;
+}
+
+.tableCpfCnpj {
+  width: 120px;
+}
+
+.tableNome {
+  width: 165px;
+}
+
+.tableEmail {
+  width: 205px;
+}
+
+.tableTipoCliente {
+  width: 100px;
+}
+
+.tableCep {
+  width: 90px;
+}
+
+.tableAcoes svg {
+  margin-right: 30px;
+}
+
+.tableAcoes {
+  width: 100px;
+}
+
+.btn-acoes button {
+  padding: 10px;
+  margin: 6px;
+}
+.mensagem {
+  display: flex;
+  justify-content: flex-end;
+}
+.mensagem p {
+  color: firebrick;
+  width: 350px;
+  font-size: 20px;
+  border-radius: 8px;
+
+  font-weight: 900;
+}
+.mensagem-cadastro p {
+  color: green;
+  font-weight: 900;
+  padding: 0;
+  width: 350px;
+  font-size: 20px;
+  border-radius: 8px;
+}
+.mensagem-cadastro {
+  display: flex;
+  justify-content: flex-end;
+  padding: 0;
+}
