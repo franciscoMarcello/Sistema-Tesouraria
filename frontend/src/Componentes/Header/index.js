@@ -2,7 +2,7 @@ import React from "react";
 import "./Header.css";
 import { ImExit } from "react-icons/im";
 import { useDispatch, useSelector } from "react-redux";
-import GICAT from "../../Assets/GICAT.png";
+import GICAT from "../../Assets/GICAT2.png";
 
 function Header() {
   const dispatch = useDispatch();
@@ -10,7 +10,7 @@ function Header() {
   return (
     <div className="header  d-flex  align-items-center">
       <div className="logo">
-        <img src={GICAT} alt="Logo" width="90" height="60" />
+        <img src={GICAT} alt="Logo" width="120" height="70" />
       </div>
       <div className="sair">
         <p className="nome me-5 mt-2">{usuarioName}</p>

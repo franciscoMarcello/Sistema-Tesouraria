@@ -1,6 +1,5 @@
 .content {
   grid-area: content;
   padding: 50px;
-  background: linear-gradient(to right,#E6E6FA, #ffff);
-
+ 
 }

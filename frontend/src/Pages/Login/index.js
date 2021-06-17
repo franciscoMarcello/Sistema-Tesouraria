@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import { HiFingerPrint } from "react-icons/hi";
 import { useHistory } from "react-router-dom";
 import { useSelector, useDispatch } from "react-redux";
 import GICAT from "../../Assets/GICAT.png";
@@ -48,7 +47,7 @@ function Login() {
             id="Login"
             class="fadeIn second"
             name="login"
-            placeholder="Usuario"
+            placeholder="Usuário"
             onChange={e => setEmail(e.target.value)}
           />
 
