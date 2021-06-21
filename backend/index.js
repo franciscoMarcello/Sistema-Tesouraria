@@ -249,7 +249,7 @@ app.post("/api/login", async (req, res) => {
 app.post("/api/pesquisa/pessoas", async (req, res) => {
   const cnpj_cpf = req.body.cnpj_cpf;
   const sqlSelect =
-    "SELECT id, cnpj_cpf, nome, tipo_pessoa, email, cep, contato,tipo_cliente, dataDeCadastro  FROM pessoas WHERE cnpj_cpf = ? ";
+    "SELECT id, cnpj_cpf, nome, bairro, numero, tipo_pessoa, email, cep, contato,tipo_cliente, dataDeCadastro  FROM pessoas WHERE cnpj_cpf = ? ";
   db.query(sqlSelect, cnpj_cpf, (err, result) => {
     if (err) {
     }

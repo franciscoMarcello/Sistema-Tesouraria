@@ -47,7 +47,6 @@ function CadastroTitulo() {
         cod_pessoa: pesquisa,
       }).then(response => {
         setListTitulos(response.data);
-        console.log(response.data);
       });
     }
   }
